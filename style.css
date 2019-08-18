@@ -1,0 +1,59 @@
+/*!
+Theme Name: shrunkit
+Theme URI: 	https://shrunkit.com/
+Author: Mostafiz Shabbir
+Author URI:  http://facebook.com/shabbir3g
+Description: This is WordPress theme created by mostafiz shabbir. This theme brings your site to life immersive featured images. You can easily customize this theme as you want.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: shrunkit
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-shrunkit
+*/
+
+
+.right-subs-widget h2 {
+	font-weight: 700;
+	font-size: 30px;
+}
+.live-healthy {
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+.related-news ul li{
+	list-style: none;
+}
+.related-news ul li a {
+	display: block;
+	line-height: ;
+	list-style: ;
+	text-decoration: none;
+	color: #000;
+}
+.related-news ul{
+	margin: 0;
+	padding: 0;
+}
+.related-news ul li span {
+	border-bottom: 1px solid #ebebeb;
+	display: block;
+	color: #aaa;
+	margin: 10px 0;
+}
+
+.legal-page{
+	margin-bottom: 30px;
+}
+.shabbircomment .dsq-postid {
+	display: none !important;
+}
+
+.partner-logo ul li a img{
+	height: 100px;
+	width: 170px;
+}
+.woocommerce nav.woocommerce-pagination {
+	text-align: center;
+	display: block;
+	width: 100%;
+}
