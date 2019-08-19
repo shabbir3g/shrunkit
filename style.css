@@ -57,3 +57,27 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	display: block;
 	width: 100%;
 }
+
+.owl-carousel .owl-item img {
+	transform-style: preserve-3d;
+	height: 100%;
+}
+.slider-area .owl-controls {
+	position: absolute;
+	top: 42%;
+	right: 20px;
+}
+.product-gallery-section .owl-controls {
+	display: none;
+}
+
+.single-blog.homeblog img{
+	height: 237px;
+}
+.single-blog.homeblog .blog-content a h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 700;
+}

@@ -1,15 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package shrunkit
+
 	
 	template name: Sale Page
 
@@ -39,7 +30,7 @@ get_header(); ?>
 						while ( $salepage->have_posts() ) :$salepage->the_post(); ?>
 						<article> 
 							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-							<a href="#"><h2><?php the_title(); ?></h2></a>
+							<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
 							<p><?php echo wp_trim_words(get_the_content(), 100, '</p>
 							<a class="read-more" href="'.get_the_permalink().'">Read More</a>'); ?>
 							
